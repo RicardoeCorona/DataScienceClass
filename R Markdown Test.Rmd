@@ -1,0 +1,66 @@
+---
+title: "test"
+author: "Corona"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+adding to the markdown file [[Test Link]](www.google.com)
+```{r,comment=""}
+#R code example
+2 + 2
+```
+
+## Heading: Bullet Point
+
+- Bullet Point 1
+- Bullet point 2
+  - sub point 1
+  - sub point 2
+  
+1. number point
+2. number point 2
+
+  - plian text 
+  - Bold : **Bold**
+  - Italics: *Italics*
+  - [links](www.google.com)
+  - ```code```
+  
+superscript: ```superscript^2```
+subscript: ```subscript~2~```
+strikethrough: `~~strikethrough~~`
+
+## add footnote
+
+this is a test [^1] of footnote
+
+[^1]: this is footnote
+
+
+
+
